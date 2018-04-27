@@ -1,0 +1,129 @@
+        main {
+            background-image: url(../Imagenes/fondoprincipal.jpg);
+            background-size: cover;
+        }
+        @font-face {
+            font-family: Magettas;
+            src: url(../Fuentes/Magettas.otf);
+        }
+        header  {
+              background-image:url(../Imagenes/logo.jpg);
+              background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        nav {
+            background-image: url(../Imagenes/fondo.jpg);
+            background-size: cover;
+            display: flex;
+            border-radius: 30%;
+            border-style: double;
+            border-color: darkblue;
+            }
+        form {
+            display: flex;
+            flex-direction: row;
+            width: 5%;
+            font-family: Arial;
+        }
+        ul {
+            text-align: center;
+            background-size: cover;
+            margin-left: 12%;
+            margin-right: 1%;
+        }
+        li {
+            display: inline;
+            text-decoration: none;
+            border-style: double;
+            border-bottom-color: darkblue;
+            background-color: white;
+        }
+        li:hover {
+        background-color: gray;
+        border-style: solid;
+        border-color: darkblue;
+        }
+        a {
+            text-decoration: none;
+            color: darkblue;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+            font-size: 40px;
+            font-family: Magettas;
+        }
+        h2 {
+            color: blue;
+            text-align: center;
+            font-family: Magettas;
+        }
+        h3 {
+            clear: both;
+            color: darkblue;
+            text-align: left;
+        }
+     
+        article {
+             background-image: url(../Imagenes/fondo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction:column;
+            width: 60%;
+            margin: auto;
+            color: blue;
+            font-family: Magettas;
+            border-style:double;
+            border-bottom-color: darkblue;
+            border-radius: 3%
+        }
+        section {
+            display: flex;
+            flex-direction: row;
+        }
+        p {
+            font-family: Magettas;
+            width: 50%;
+            text-align: left;
+            text-align: justify;
+        }
+        img {
+            margin: auto;
+        }
+        input {
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            border-color: black;
+        }
+        label {
+            color: black;
+            font-family: Arial;
+            margin: auto;
+        }
+        fieldset {
+            width: 70%;
+            border-radius: 15%;
+            border-style: double;
+            border-color: black;
+            background-color: gainsboro
+        }
+        video {
+            margin: auto;
+            margin-right: 7%;
+            border-style: double;
+            border-color: darkblue;
+        }
+        iframe {
+            margin: auto;
+            border-radius: 10%;
+        }
+        footer{
+            height: 20%;
+            background-image: url(../Imagenes/fondo.jpg);
+            background-size: cover;
+            border-style: double;
+            border-color: darkblue;
+        }
